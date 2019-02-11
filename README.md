@@ -4,7 +4,7 @@ Get calls to the [IGDB API v3](https://api-docs.igdb.com/) up and running with [
 
 #### Requires
 * Node and npm (https://www.npmjs.com/get-npm)
-* IGDB API Key (https://api.igdb.com/signup)
+* IGDB API v3 Key (https://api.igdb.com/signup)
 
 ---
 
@@ -24,5 +24,13 @@ npm run serve
 
 
 ---
-### Customize configuration
+### Vue CLI Custom configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+---
+
+### Resources
+* [IGDB API v3 documentation](https://api-docs.igdb.com/)
+* [IGDB Discord channel](https://discord.gg/WvBNFRu)
+* [IGDB.com](IGDB.com)
+* [axios](https://github.com/axios/axios)
