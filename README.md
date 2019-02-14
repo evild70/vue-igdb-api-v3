@@ -13,7 +13,7 @@ Get calls to the [IGDB API v3](https://api-docs.igdb.com/) up and running with [
 npm install
 ```
 
-After install, edit `src/App.vue` with your IGDB API Key and port number of where the app is running locally (usually `8080`).
+* After install, edit `src/App.vue` with your IGDB API Key and port number of where the app is running locally (usually `8080`).
 
 ### 2. Serve locally
 ```
