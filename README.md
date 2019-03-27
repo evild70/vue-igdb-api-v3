@@ -10,25 +10,34 @@ Get calls to the [IGDB API v3](https://api-docs.igdb.com/) up and running with [
 
 ### 1. Project setup
 ```
-npm install
+$ npm install
 ```
 
+### 2. Edit App.vue
 * After install, edit `src/App.vue` with your IGDB API Key and port number of where the app is running locally (usually `8080`).
 
-### 2. Serve locally
-```
-npm run serve
+```javascript
+axios({
+    url: "http://localhost:[PORT_NUMBER]/games",
+    method: 'POST',
+    headers: {
+        'Accept': 'application/json',
+        'user-key': '[API_KEY]'
+    },
+    data: 'fields name; limit 10;'
+});
 ```
 
-### 3. Profit!
-
+### 3. Serve locally
+```
+$ npm run serve
+```
 
 ---
 ### Vue CLI Custom configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ---
-
 ### Resources
 * [IGDB API v3 documentation](https://api-docs.igdb.com/)
 * [IGDB Discord channel](https://discord.gg/WvBNFRu)
@@ -36,6 +45,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [axios](https://github.com/axios/axios)
 
 ---
-
 ### Related
 [igdb-js-proxy](https://github.com/evild70/igdb-js-proxy)
