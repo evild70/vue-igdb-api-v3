@@ -7,8 +7,8 @@ Get calls to the [IGDB API v3](https://api-docs.igdb.com/) up and running with [
 * IGDB API v3 Key (https://api.igdb.com/signup)
 
 ---
-
 ### 1. Project setup
+* Download/clone this repo. Go to repo directory and...
 ```
 $ npm install
 ```
