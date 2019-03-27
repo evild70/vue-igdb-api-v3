@@ -34,3 +34,8 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 * [IGDB Discord channel](https://discord.gg/WvBNFRu)
 * [IGDB.com](IGDB.com)
 * [axios](https://github.com/axios/axios)
+
+---
+
+### Related
+[igdb-js-proxy](https://github.com/evild70/igdb-js-proxy)
